@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <div class="slack-container d-flex">
+        <div class="col-lg-.5 side-bar">
+          <div class="group-bar">
+            <h2 class="group-bar-name active">LW</h2>
+            <h2 class="group-bar-name">SL</h2>
+          </div>
+        </div>
+        <div class="col-lg-2" style="background-color: #4B3949;">
+          <div class="navigation">
+            <div class="title-group">
+              <h1>Le wagon</h1>
+            </div>
+            <div class="profil-connected">
+              <h3><i class="fas fa-circle" style="color:#1FE5BD; font-size: 8px;"></i>Quentin Brisepierre</h3>
+            </div>
+            <div class="channel">
+              <div class="channel-add d-flex justify-content-between align-items-center">
+                <h3>Channels</h3>
+                <i class="fas fa-plus" style="color: white;"></i>
+              </div>
+              <div class="channel-name-group">
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fab fa-slack-hash"></i>
+                  <h4>general</h4>
+                </div>
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fab fa-slack-hash"></i>
+                  <h4>general</h4>
+                </div>
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fab fa-slack-hash"></i>
+                  <h4>general</h4>
+                </div>
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fab fa-slack-hash"></i>
+                  <h4>general</h4>
+                </div>
+              </div>
+            </div>
+            <div class="channel">
+              <div class="channel-add d-flex justify-content-between align-items-center">
+                <h3>Direct message</h3>
+                <i class="fas fa-plus" style="color: white;"></i>
+              </div>
+              <div class="channel-name-group">
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fas fa-circle" style="color:#1FE5BD; font-size: 8px;"></i>
+                  <h4>general</h4>
+                </div>
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fas fa-circle" style="color:#1FE5BD; font-size: 8px;"></i>
+                  <h4>general</h4>
+                </div>
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fas fa-circle" style="color:white; font-size: 8px;"></i>
+                  <h4>general</h4>
+                </div>
+                <div class="channel-name d-flex justify-content-left align-items-center">
+                  <i class="fas fa-circle" style="color:white; font-size: 8px;"></i>
+                  <h4>general</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="message-container">
+            <div class="message-container-title d-flex justify-content-left align-items-center border-bottom">
+              <i class="fab fa-slack-hash" style="font-size: 22px;"></i>
+              <h1>design</h1>
+            </div>
+            <div class="card-message d-flex jusitfu-content-left align-items-center">
+              <img class="rounded" src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+              <div class="name-message">
+                <p class="name-message-title">Quentin Brisepierre</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta, quod optio at nesciunt sed?</p>
+              </div>
+            </div>
+            <div class="card-message d-flex jusitfu-content-left align-items-center">
+              <img class="rounded" src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+              <div class="name-message">
+                <p class="name-message-title">Quentin Brisepierre</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta, quod optio at nesciunt sed?</p>
+              </div>
+            </div>
+            <div class="card-message d-flex jusitfu-content-left align-items-center">
+              <img class="rounded" src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+              <div class="name-message">
+                <p class="name-message-title">Quentin Brisepierre</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta, quod optio at nesciunt sed?</p>
+              </div>
+            </div>
+          </div> 
+          <div class="type-bar">
+            <div class="input-group mb-3" style="margin-top: 610px;">
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Type your message">
+            </div>
+          </div>       
+        </div>
+        
+    </div>
+
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

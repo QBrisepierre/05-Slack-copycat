@@ -1,0 +1,51 @@
+/* TODO: slack layout */
+.title-group {
+    color: white;
+    padding-top: 10px;
+}
+
+.title-group h1 {
+    font-size: 28px;
+}
+
+.profil-connected h3 {
+    font-size: 15px;
+    color: white;
+}
+
+.profil-connected h3 i {
+    padding-right: 10px;
+}
+
+.channel {
+    color: white;
+    padding-top: 20px;
+}
+
+.channel h3{
+    font-size: 16px;
+}
+
+.channel h4 {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.message-container-title i{
+    padding-right: 10px;
+}
+
+.name-message-title{
+    font-weight: bold;
+}
+
+.card-message img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.name-message {
+    flex-grow: 1;
+}
